@@ -1,0 +1,154 @@
+OK
+deb https://download.sublimetext.com/ apt/stable/
+Get:1 http://ftp.agh.edu.pl/debian experimental InRelease [101 kB]
+Ign:2 http://ftp.agh.edu.pl/debian stretch InRelease
+Get:3 http://ftp.agh.edu.pl/debian stretch-updates InRelease [91.0 kB]
+Get:4 http://ftp.agh.edu.pl/debian testing InRelease [159 kB]
+Get:5 http://ftp.agh.edu.pl/debian unstable InRelease [243 kB]
+Hit:6 http://security.debian.org/debian-security stretch/updates InRelease
+Ign:7 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:8 http://ftp.agh.edu.pl/debian stretch Release [118 kB]
+Hit:9 http://repository.spotify.com stable InRelease
+Hit:10 http://dl.google.com/linux/chrome/deb stable Release
+Get:12 https://download.sublimetext.com apt/stable/ InRelease [2,562 B]
+Get:14 https://download.sublimetext.com apt/stable/ Packages [1,006 B]
+Fetched 716 kB in 0s (781 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libquazip5-1 texstudio-doc texstudio-l10n
+Suggested packages:
+  libquazip-doc texlive-latex-extra
+The following NEW packages will be installed:
+  libquazip5-1 texstudio texstudio-doc texstudio-l10n
+0 upgraded, 4 newly installed, 0 to remove and 0 not upgraded.
+Need to get 7,978 kB of archives.
+After this operation, 20.1 MB of additional disk space will be used.
+Get:1 http://ftp.agh.edu.pl/debian stretch/main amd64 libquazip5-1 amd64 0.7.2-1 [74.1 kB]
+Get:2 http://ftp.agh.edu.pl/debian stretch/main amd64 texstudio amd64 2.11.2+debian-1 [5,267 kB]
+Get:3 http://ftp.agh.edu.pl/debian stretch/main amd64 texstudio-doc all 2.11.2+debian-1 [2,135 kB]
+Get:4 http://ftp.agh.edu.pl/debian stretch/main amd64 texstudio-l10n all 2.11.2+debian-1 [503 kB]
+Fetched 7,978 kB in 0s (10.6 MB/s)
+Selecting previously unselected package libquazip5-1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 203114 files and directories currently installed.)
+Preparing to unpack .../libquazip5-1_0.7.2-1_amd64.deb ...
+Unpacking libquazip5-1:amd64 (0.7.2-1) ...
+Selecting previously unselected package texstudio.
+Preparing to unpack .../texstudio_2.11.2+debian-1_amd64.deb ...
+Unpacking texstudio (2.11.2+debian-1) ...
+Selecting previously unselected package texstudio-doc.
+Preparing to unpack .../texstudio-doc_2.11.2+debian-1_all.deb ...
+Unpacking texstudio-doc (2.11.2+debian-1) ...
+Selecting previously unselected package texstudio-l10n.
+Preparing to unpack .../texstudio-l10n_2.11.2+debian-1_all.deb ...
+Unpacking texstudio-l10n (2.11.2+debian-1) ...
+Setting up libquazip5-1:amd64 (0.7.2-1) ...
+Processing triggers for mime-support (3.60) ...
+Processing triggers for desktop-file-utils (0.23-1) ...
+Setting up texstudio (2.11.2+debian-1) ...
+Setting up texstudio-doc (2.11.2+debian-1) ...
+Processing triggers for libc-bin (2.24-11+deb9u3) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Processing triggers for hicolor-icon-theme (0.15-1) ...
+Setting up texstudio-l10n (2.11.2+debian-1) ...
+texstudio is already the newest version (2.11.2+debian-1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  xzdec
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 198 kB of archives.
+After this operation, 269 kB of additional disk space will be used.
+Get:1 http://ftp.agh.edu.pl/debian stretch/main amd64 xzdec amd64 5.2.2-1.2+b1 [198 kB]
+Fetched 198 kB in 0s (3,390 kB/s)
+Selecting previously unselected package xzdec.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 203269 files and directories currently installed.)
+Preparing to unpack .../xzdec_5.2.2-1.2+b1_amd64.deb ...
+Unpacking xzdec (5.2.2-1.2+b1) ...
+Setting up xzdec (5.2.2-1.2+b1) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  perl-tk
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1,943 kB of archives.
+After this operation, 7,053 kB of additional disk space will be used.
+Get:1 http://ftp.agh.edu.pl/debian stretch/main amd64 perl-tk amd64 1:804.033-1+b3 [1,943 kB]
+Fetched 1,943 kB in 0s (9,145 kB/s)
+Selecting previously unselected package perl-tk.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 203284 files and directories currently installed.)
+Preparing to unpack .../perl-tk_1%3a804.033-1+b3_amd64.deb ...
+Unpacking perl-tk (1:804.033-1+b3) ...
+Setting up perl-tk (1:804.033-1+b3) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+(running on Debian, switching to user mode!)
+(running on Debian, switching to user mode!)
+tlmgr: package repository http://piotrkosoft.net/pub/mirrors/CTAN/systems/texlive/tlnet (verified)
+[1/51, ??:??/??:??] install: amscls [32k]
+[2/51, 00:03/11:09] install: amsfonts [3542k]
+[3/51, 00:43/01:24] install: amsmath [30k]
+[4/51, 00:43/01:23] install: babel [140k]
+[5/51, 00:44/01:22] install: biblatex [207k]
+[6/51, 00:44/01:18] install: bigfoot [12k]
+[7/51, 00:44/01:18] install: booktabs [3k]
+[8/51, 00:44/01:18] install: caption [33k]
+[9/51, 00:44/01:17] install: cm [233k]
+[10/51, 00:45/01:14] install: courier [470k]
+[11/51, 00:45/01:07] install: cprotect [3k]
+[12/51, 00:45/01:07] install: csquotes [18k]
+[13/51, 00:46/01:08] install: dehyph [46k]
+[14/51, 00:46/01:07] install: enumitem [14k]
+[15/51, 00:46/01:07] install: etex [12k]
+[16/51, 00:46/01:07] install: etoolbox [9k]
+[17/51, 00:46/01:07] install: filecontents [2k]
+[18/51, 00:46/01:07] install: float [3k]
+[19/51, 00:46/01:07] install: fp [19k]
+[20/51, 00:46/01:07] install: geometry [9k]
+[21/51, 00:46/01:06] install: graphbox [2k]
+[22/51, 00:46/01:06] install: graphics [15k]
+[23/51, 00:46/01:06] install: hyperref [106k]
+[24/51, 00:47/01:06] install: knuth-lib [30k]
+[25/51, 00:47/01:06] install: l3packages [20k]
+[26/51, 00:47/01:06] install: latex [154k]
+[27/51, 00:47/01:04] install: listings [141k]
+[28/51, 00:47/01:02] install: logreq [4k]
+Package luatex is not relocatable, cannot install it in user mode!
+[29/51, 00:47/01:02] install: makecell [5k]
+[30/51, 00:48/01:03] install: mathtools [19k]
+[31/51, 00:48/01:03] install: mdwtools [19k]
+[32/51, 00:48/01:03] install: multirow [3k]
+Package pdftex is not relocatable, cannot install it in user mode!
+[33/51, 00:48/01:03] install: pgf [679k]
+[34/51, 00:49/00:57] install: pgfplots [509k]
+[35/51, 00:49/00:52] install: plain [60k]
+[36/51, 00:49/00:52] install: preprint [7k]
+[37/51, 00:50/00:53] install: psnfss [12k]
+[38/51, 00:50/00:53] install: siunitx [35k]
+[39/51, 00:50/00:52] install: tex-ini-files [4k]
+[40/51, 00:50/00:52] install: threeparttable [6k]
+[41/51, 00:50/00:52] install: tikzscale [5k]
+[42/51, 00:50/00:52] install: titlesec [21k]
+[43/51, 00:50/00:52] install: todonotes [5k]
+[44/51, 00:50/00:52] install: tools [40k]
+[45/51, 00:50/00:52] install: unicode-data [225k]
+[46/51, 00:51/00:51] install: url [6k]
+[47/51, 00:51/00:51] install: was [4k]
+[48/51, 00:51/00:51] install: xcolor [17k]
+[49/51, 00:51/00:51] install: xstring [11k]
+tlmgr: package log updated: /home/pkleczek/texmf/web2c/tlmgr.log
+running mktexlsr ...
+done running mktexlsr.
+running updmap ...
+done running updmap.
+(running on Debian, switching to user mode!)
+tlmgr: package repository http://piotrkosoft.net/pub/mirrors/CTAN/systems/texlive/tlnet (verified)
+tlmgr: no updates available
