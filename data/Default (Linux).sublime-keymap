@@ -1,0 +1,41 @@
+[
+	{
+		"keys": ["ctrl+k", "ctrl+t"],
+		"command": "title_case"
+	},
+	{
+		"keys": ["ctrl+shift+space"],
+		"command": "insert_snippet",
+		"args": {"contents": " "}
+	},
+	{
+		"keys": ["ctrl+shift+,"],
+		"command": "insert_snippet",
+		"args": {"contents": "«"}
+	},
+	{
+		"keys": ["ctrl+shift+."],
+		"command": "insert_snippet",
+		"args": {"contents": "»"}
+	},
+	{
+		"keys": ["ctrl+minus"],
+		"command": "insert_snippet",
+		"args": {"contents": "–"}
+	},
+	{
+		"keys": ["alt+c"],
+		"command": "insert_snippet",
+		"args": {"contents": "ć"}
+	},
+	{
+    	"keys": ["ctrl+shift+space"],
+    	"command": "insert_snippet",
+    	"args": {"contents": " "}
+	},
+	{
+    	"keys": ["ctrl+shift+b"],
+    	"command": "insert_snippet",
+    	"args": {"contents": "‎"}
+	},
+]

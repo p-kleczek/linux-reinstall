@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # TODO:
 # - wget should save files in ~./Downloads/installers dir (which should be cleaned upon successful installation)
 
@@ -16,6 +18,8 @@ sudo apt install -y software-properties-common
 sudo apt install -y libtiff6  # 24.04+
 # FIXME: libtiff5 - 22.04-
 #sudo apt install -y libtiff5
+sudo apt install -y kde-cli-tools
+
 
 sudo apt install -y plocate
 sudo apt install -y font-manager
@@ -94,6 +98,8 @@ clamscan --version
 # Pakiety językowe.
 sudo apt install -y libreoffice
 sudo apt install -y libreoffice-l10n-pl
+# Repo pod kątem aktualizacji.
+sudo add-apt-repository -y ppa:libreoffice/ppa
 
 # [P3] gEdit
 sudo apt install -y gedit
