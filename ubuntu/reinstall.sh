@@ -597,5 +597,13 @@ sudo apt update
 sudo apt install ${DOWNLOADS}/teamviewer_amd64.deb
 
 # [P103] PWN-EN
-# (VirtualBox)
+# (install in VirtualBox)
 
+# [P104] PWN-RU
+# (install in VirtualBox)
+
+# [P105] Apache
+sudo apt install -y apache2
+
+# [P106] PHP
+sudo apt install -y php8.3
