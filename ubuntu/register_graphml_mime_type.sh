@@ -44,7 +44,7 @@ rm ${TEST_FILE}
 
 echo "Registering yEd as default application for application/graphml MIME type..."
 
-APPS_DIR="~/.local/share/applications"
+APPS_DIR="$HOME/.local/share/applications"
 YED_DESKTOP_FILE=$(find ${APPS_DIR} -name '*yEd*.desktop')
 
 tee -a ${YED_DESKTOP_FILE} > /dev/null <<EOT
