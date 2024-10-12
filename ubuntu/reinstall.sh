@@ -20,7 +20,6 @@ sudo apt install -y libtiff6  # 24.04+
 #sudo apt install -y libtiff5
 sudo apt install -y kde-cli-tools
 
-
 sudo apt install -y plocate
 sudo apt install -y font-manager
 
@@ -28,7 +27,8 @@ sudo apt install -y font-manager
 sudo apt install -y gnome-tweaks
 
 # heif-convert
-sudo apt install libheif-examples
+sudo apt install -y libheif-examples
+
 
 # =========================================================
 
@@ -156,6 +156,12 @@ sudo apt install -y git
 # # Pakiety dla CV (curriculum vitae):
 # tlmgr install footmisc ragged2e polski enumitem etoolbox xifthen ifmtarg multirow koma-script bold-extra lastpage
 
+# Prezentacje AGH
+# tlmgr install beamer textpos hanging comment lstaddons dashrule adjustbox collcell eurosym setspace tikzmark fontspec etex helvetic times
+# lstaddons = lstautogobble.sty
+# shipunov = boldline.sty
+# helvetic = phvr8t.tfm
+# times = ptmr8t.tfm
 
 # [P12] PyCharm IDE
 sudo snap install pycharm-community --classic
@@ -607,3 +613,13 @@ sudo apt install -y apache2
 
 # [P106] PHP
 sudo apt install -y php8.3
+
+# [P107] yED
+# (manual)
+
+sudo bash register_graphml_mime_type.sh
+echo "You still need to associate application/graphml with yEd!"
+
+# [P108] JOSM
+sudo snap install josm
+

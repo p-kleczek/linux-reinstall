@@ -1,6 +1,6 @@
 #! /bin/bash
 
-PARTITION=sdb1
+PARTITION=sdd1
 MOUNT_DIR=Seagate_2TB
 
 MOUNT_DIR_ROOT_PATH=/media/$USER
