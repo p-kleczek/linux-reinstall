@@ -75,6 +75,8 @@ sudo apt update
 sudo apt install -y ttf-mscorefonts-installer
 # (manual: EULA)
 
+# sudo apt install -y gnome-shell-extension-ubuntu-docket
+
 # =========================================================
 
 # Games
@@ -135,33 +137,7 @@ sudo apt install -y git
 # (manual)
 
 # tlmgr init-usertree
-
-# # Standardowe pakiety
-# tlmgr install geometry psnfss latex babel xcolor enumitem multirow booktabs makecell threeparttable l3packages l3kernel cprotect courier mdwtools filecontents mathtools amsmath amscls was url hyperref graphics tools graphbox titlesec pgf pgfplots tikzscale siunitx csquotes fp etoolbox listings preprint todonotes bigfoot xstring biblatex logreq algorithm2e ifoddpage relsize babel-polish lastpage environ trimspaces etextools xstring ulem
-# tlmgr install biber gensymb caption svg trimspaces xcolor transparent pgf
-# # Własne środowiska, komendy
-# tlmgr install environ
-# # Symbole (amssymb: amsfonts)
-# tlmgr install amsfonts tipa
-# # Matematyka
-# tlmgr cases
-# # SVG
-# tlmgr install catchfile
-# # Grafika
-# tlmgr install float caption
-# # Układ tekstu
-# tlmgr install varwidth
-# # Testy (arkusze egzaminacyjne)
-# tlmgr install tasks
-# # Pakiety dla CV (curriculum vitae):
-# tlmgr install footmisc ragged2e polski enumitem etoolbox xifthen ifmtarg multirow koma-script bold-extra lastpage
-
-# Prezentacje AGH
-# tlmgr install beamer textpos hanging comment lstaddons dashrule adjustbox collcell eurosym setspace tikzmark fontspec etex helvetic times
-# lstaddons = lstautogobble.sty
-# shipunov = boldline.sty
-# helvetic = phvr8t.tfm
-# times = ptmr8t.tfm
+# Teraz, w celu instalacji pakietów, uruchom skrypt: install_texlive_packages.sh
 
 # [P12] PyCharm IDE
 sudo snap install pycharm-community --classic
@@ -622,4 +598,7 @@ echo "You still need to associate application/graphml with yEd!"
 
 # [P108] JOSM
 sudo snap install josm
+
+# [P109] GhostWriter
+sudo apt install ghostwriter
 
